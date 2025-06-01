@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import instagram from '../public/instagram.png'
 import facebook from '../public/facebook.png'
-import linkedin from '../public/linkedin.png'
+import linkedin from '../public/linkedIn.png'
 import whatsapp from '../public/whatsapp.png'
 
 
