@@ -51,22 +51,22 @@ const Footer = () => {
                 <ul className="space-y-2">
                   <li>
                     <Link href="/" className="text-gray-600 hover:text-pink-500">
-                      Cold and Flu
+                      General Health
                     </Link>
                   </li>
                   <li>
                     <Link href="/" className="text-gray-600 hover:text-pink-500">
-                      Bone and Joint Care
+                      Oncology
                     </Link>
                   </li>
                   <li>
                     <Link href="/" className="text-gray-600 hover:text-pink-500">
-                      Eye Care
+                     Neurology
                     </Link>
                   </li>
                   <li>
                     <Link href="/" className="text-gray-600 hover:text-pink-500">
-                      Diabetes Care
+                     Diabetology
                     </Link>
                   </li>
                 </ul>

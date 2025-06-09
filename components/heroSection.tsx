@@ -85,7 +85,7 @@ const HeroSection = () => {
               alt="Pharmacist"
               width={420}
               height={300}
-              className="w-[350px] sm:w-[350px] md:w-[420px] object-contain"
+              className="w-[390px] sm:w-[350px] md:w-[420px] object-contain"
               priority
             />
           </div>
