@@ -10,19 +10,41 @@ import { FaPlus } from "react-icons/fa6"
 const products = [
   {
     id: 1,
-    name: "Vitamin 100",
-    description: "A comprehensive vitamin supplement designed to support overall health and wellness. Our specially formulated blend contains essential vitamins and minerals that help maintain immune function, boost energy levels, and promote optimal health.",
-    price: 100.00,
-    benefits: [
-      "Supports immune system function",
-      "Increases energy and vitality",
-      "Promotes healthy skin and hair",
-      "Helps maintain bone health"
-    ],
-    usage: "Take one capsule daily with meals or as directed by your healthcare professional.",
-    category: "Health supplement",
-    composition: "Vitamin A, B-Complex, C, D, E, Minerals, Zinc"
-  },
+    name: "PACLILAISA Injection",
+    category: "Oncology",
+    description: "PACLILAISA (Paclitaxel) Injection is a mitotic inhibitor used in cancer chemotherapy. It is particularly effective in the treatment of ovarian, breast, lung, bladder, prostate, melanoma, esophageal, and other types of solid tumor cancers. The drug targets tubulin, which is essential for cell division, effectively disrupting the process of cancer cell growth.",
+    image: Product,    details: {
+      composition: {
+        title: "Each ml contains:",
+        components: [
+          { name: "Paclitaxel I.P.", value: "6mg" },
+          { name: "Polyoxyl 35 Castor Oil I.P.", value: "527mg" },
+          { name: "Dehydrated Alcohol I.P.", value: "49.7%v/v" }
+        ]
+      },
+      packaging: "Single-dose vial with tamper-evident seal",
+      strength: "260mg/43.4ml",
+      storageConditions: "Store between 20°C to 25°C, protect from light"
+    }
+  },  {
+    id: 2,
+    name: "DOCELAISA Injection",
+    category: "Oncology",
+    description: "DOCELAISA (Docetaxel) Injection is a chemotherapy medication used to treat various types of cancer including breast cancer, non-small cell lung cancer, prostate cancer, gastric cancer, and head and neck cancer. It works by interfering with cell division, specifically targeting rapidly growing cancer cells.",
+    image: Product,
+    details: {      composition: {
+        title: "Each ml contains:",
+        components: [
+          { name: "Docetaxel Trihydrate I.P. eq. to Docetaxel", value: "40mg" },
+          { name: "Polysorbate 80 I.P.", value: "527mg" },
+          { name: "Ethanol I.P.", value: "qs" }
+        ]
+      },
+      packaging: "Single-dose vial with tamper-evident seal",
+      strength: "120mg/3ml",
+      storageConditions: "Store between 2°C to 8°C, protect from light"
+    }
+  }
   // Add more products as needed
 ]
 
@@ -53,8 +75,7 @@ export default function ProductDetail() {
             <div>
               <p className="text-sm text-[#D12391] mb-2">{product.category}</p>
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">{product.name}</h1>
-              <p className="text-2xl font-bold text-[#D12391]">${product.price.toFixed(2)}</p>
-            </div>
+            </div>    
 
             <div>
               <h2 className="text-xl font-semibold mb-3">Description</h2>
@@ -62,29 +83,40 @@ export default function ProductDetail() {
             </div>
 
             <div>
-              <h2 className="text-xl font-semibold mb-3">Benefits</h2>
-              <ul className="list-disc list-inside space-y-2 text-gray-600">
-                {product.benefits.map((benefit, index) => (
-                  <li key={index}>{benefit}</li>
-                ))}
-              </ul>
-            </div>
-
-            <div>
-              <h2 className="text-xl font-semibold mb-3">Usage</h2>
-              <p className="text-gray-600">{product.usage}</p>
-            </div>
-
-            <div>
-              <h2 className="text-xl font-semibold mb-3">Composition</h2>
-              <p className="text-gray-600">{product.composition}</p>
+              <h2 className="text-xl font-semibold mb-3">Details</h2>              <div className="space-y-4 text-gray-600">                <div className="bg-[#F8F5F7] p-4 rounded-lg">
+                  <span className="font-medium text-[#D12391]">Composition:</span>
+                  <div className="mt-2 font-mono text-sm">
+                    <div className="mb-2">{product.details.composition.title}</div>
+                    {product.details.composition.components.map((component, index) => (
+                      <div key={index} className="flex justify-between border-b border-gray-200 py-1 last:border-0">
+                        <span>{component.name}</span>
+                        <span>{component.value}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  <div className="bg-[#F8F5F7] p-4 rounded-lg">
+                    <span className="font-medium text-[#D12391]">Strength:</span>
+                    <div className="mt-1">{product.details.strength}</div>
+                  </div>
+                  <div className="bg-[#F8F5F7] p-4 rounded-lg">
+                    <span className="font-medium text-[#D12391]">Packaging:</span>
+                    <div className="mt-1">{product.details.packaging}</div>
+                  </div>
+                </div>
+                <div className="bg-[#F8F5F7] p-4 rounded-lg">
+                  <span className="font-medium text-[#D12391]">Storage Conditions:</span>
+                  <div className="mt-1">{product.details.storageConditions}</div>
+                </div>
+              </div>
             </div>
 
             <Button 
               className="w-full md:w-auto bg-[#D12391] hover:bg-[#D12391]/90 text-white flex items-center gap-2"
             >
               <FaPlus size={16} />
-              Add to Cart
+              Request Quote
             </Button>
           </div>
         </div>

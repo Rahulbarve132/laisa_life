@@ -3,37 +3,38 @@ import React from 'react'
 const testimonialData = [
   {
     id: 1,
-    title: "Trusted Pharmacy Care",
-    subtitle: "Delivered Fast, Safe, and Always On Time",
-    review: "Excellent service, genuine medicines, quick delivery — highly recommended for convenience and care",
+    title: "Top-Notch Medicine Quality",
+    subtitle: "Consistent Standards & GMP Certified",
+    review: "We’ve been sourcing from this factory for over 2 years. Their medicines are always of premium quality, and regulatory compliance is excellent.",
     rating: 5,
-    author: "Sarah Johnson"
+    author: "Dr. Rajeev Mehra, Delhi"
   },
   {
     id: 2,
-    title: "Exceptional Customer Service",
-    subtitle: "Professional and Caring Staff",
-    review: "The pharmacists are incredibly knowledgeable and take time to explain medications thoroughly. Best pharmacy experience!",
+    title: "Reliable Bulk Supplier",
+    subtitle: "Timely Delivery & Transparent Communication",
+    review: "Their logistics and communication are smooth. Bulk orders are handled professionally with no delays. A trustworthy partner for our hospital network.",
     rating: 5,
-    author: "Michael Chen"
+    author: "Sneha Ramesh, Bengaluru"
   },
   {
     id: 3,
-    title: "Reliable Healthcare Partner",
-    subtitle: "Quality Products & Competitive Prices",
-    review: "I've been a customer for years. Their prices are fair and the service is consistently outstanding",
+    title: "Affordable & Effective Formulations",
+    subtitle: "Great Value for Healthcare Units",
+    review: "We get top-quality generics at very competitive rates. Their product stability and efficacy are impressive. Highly recommended for rural health programs.",
     rating: 5,
-    author: "Emma Thompson"
+    author: "Anil Patil, Pune"
   },
   {
     id: 4,
-    title: "Convenient Online Service",
-    subtitle: "Easy Ordering & Quick Delivery",
-    review: "The online ordering system is user-friendly and delivery is always prompt. Makes managing medications so much easier",
+    title: "Impressive R&D Support",
+    subtitle: "Innovative Formulas & Custom Manufacturing",
+    review: "They supported our private label with excellent R&D capabilities. The team is cooperative, responsive, and technically sound.",
     rating: 5,
-    author: "David Rodriguez"
+    author: "Dr. Neha Sharma, Ahmedabad"
   }
 ]
+
 
 const Testimonial = () => {
   return (

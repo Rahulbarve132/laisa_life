@@ -5,7 +5,7 @@ import maternalHealth from "@/public/maternal.png"
 
 const promotionsData = [
   {
-    title: 'Cold and flu Relief',
+    
     background: 'bg-[#91C6FF]',
     discount: '5%',
     type: 'cashback',
@@ -16,7 +16,7 @@ const promotionsData = [
     }
   },
   {
-    title: 'Maternal Health',
+    
     background: 'bg-[#91FF91]',
     discount: '10%',
     type: 'flat off',
@@ -27,7 +27,7 @@ const promotionsData = [
     }
   },
   {
-    title: 'Headache',
+    
     background: 'bg-[#FF91E4]',
     discount: '5%',
     type: 'cashback',
@@ -46,10 +46,8 @@ const Promotions = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {promotionsData.map((promotion, index) => (
             <div key={index} className={`${promotion.background} rounded-lg p-6 relative h-[330px] overflow-hidden`}>
-              <div>
-                <div className="text-2xl font-bold mb-1">{promotion.title}</div>
-                <button className="text-sm mt-4 font-semibold  mb-8">Browse all →</button>
-                <div className="text-4xl pt-20 font-bold">{promotion.discount}</div>
+              <div >
+                <div className="text-4xl  font-bold">{promotion.discount}</div>
                 <div className="text-sm">{promotion.type}</div>
               </div>
               <img

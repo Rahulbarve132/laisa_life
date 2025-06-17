@@ -71,14 +71,14 @@ const Navbar = () => {
               <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-gradient-to-b from-white to-pink-50 border-l border-pink-100">
                 <div className="flex flex-col h-full">
                   {/* Logo and Brand */}
-                   <SheetTitle>menu</SheetTitle> 
+                   
                   <div className="flex items-center gap-2 mb-8">
                     <img
                       src={logo.src}
                       alt="Logo"
                       className="h-10 w-10"
                     />
-                    <h2 className="text-xl font-bold text-[#D12391]">LAISA Life</h2>
+                    
                   </div>
 
                   {/* Navigation Links */}
@@ -125,7 +125,7 @@ const Navbar = () => {
                   </nav>
 
                   {/* Search bar */}
-                  <div className='mt-8 px-4'>
+                  {/* <div className='mt-8 px-4'>
                     <div className='searchbar flex bg-white rounded-full border border-pink-200 shadow-sm'>
                       <div className='mx-1 my-1 flex justify-center items-center py-1 px-2 bg-[#F04A8F] rounded-full'>
                         <CiSearch className="text-white" />
@@ -136,7 +136,7 @@ const Navbar = () => {
                         className="px-4 py-2 rounded-full w-full focus:outline-none"
                       />
                     </div>
-                  </div>
+                  </div> */}
 
                   {/* Contact Info */}
                   <div className="mt-auto p-4 bg-white rounded-xl shadow-sm">
