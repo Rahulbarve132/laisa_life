@@ -137,7 +137,7 @@ export default function AboutUs() {
           data-aos="fade-down"
           src={mission.src}
           alt="mission"
-          className="w-48 mx-auto rounded-2xl"
+          className="w-56 md:w-36 mx-auto rounded-2xl"
         />
       </div>
     </section>
