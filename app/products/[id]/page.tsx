@@ -2,7 +2,8 @@
 
 import { useParams } from 'next/navigation'
 import Image from 'next/image'
-import Product from "@/public/product.png"
+import pacliaisa from "@/public/pacliaisa.png"
+import docelaisa from "@/public/docelaisa.png"
 import { Button } from "@/components/ui/button"
 import { FaPlus } from "react-icons/fa6"
 
@@ -13,7 +14,7 @@ const products = [
     name: "PACLILAISA Injection",
     category: "Oncology",
     description: "PACLILAISA (Paclitaxel) Injection is a mitotic inhibitor used in cancer chemotherapy. It is particularly effective in the treatment of ovarian, breast, lung, bladder, prostate, melanoma, esophageal, and other types of solid tumor cancers. The drug targets tubulin, which is essential for cell division, effectively disrupting the process of cancer cell growth.",
-    image: Product,    details: {
+    image: pacliaisa,    details: {
       composition: {
         title: "Each ml contains:",
         components: [
@@ -31,7 +32,7 @@ const products = [
     name: "DOCELAISA Injection",
     category: "Oncology",
     description: "DOCELAISA (Docetaxel) Injection is a chemotherapy medication used to treat various types of cancer including breast cancer, non-small cell lung cancer, prostate cancer, gastric cancer, and head and neck cancer. It works by interfering with cell division, specifically targeting rapidly growing cancer cells.",
-    image: Product,
+    image: docelaisa,
     details: {      composition: {
         title: "Each ml contains:",
         components: [
@@ -62,7 +63,7 @@ export default function ProductDetail() {
           {/* Product Image */}
           <div className="bg-[#F2EFF1] rounded-3xl p-8" data-aos="fade-right">
             <Image
-              src={Product}
+              src= {product.image}
               alt={product.name}
               width={400}
               height={400}

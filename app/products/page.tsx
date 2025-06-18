@@ -1,8 +1,9 @@
 "use client"
 import Link from 'next/link'
 import React, { useState } from 'react'
-import Product from "@/public/product.png"
 import { FaPlus } from "react-icons/fa6";
+import pacliaisa from "@/public/pacliaisa.png"
+import docelaisa from "@/public/docelaisa.png"
 
 // Product data
 const products = [
@@ -11,7 +12,7 @@ const products = [
     name: "PACLILAISA Injection",
     category: "Oncology",
     description: "Paclitaxel injection for cancer treatment",
-    image: Product, // Replace with actual product image
+    image: pacliaisa, // Replace with actual product image
     details: {
       composition: "Paclitaxel",
       packaging: "Single-dose vial",
@@ -24,7 +25,7 @@ const products = [
     name: "DOCELAISA Injection",
     category: "Oncology",
     description: "Docetaxel injection for cancer treatment",
-    image: Product, // Replace with actual product image
+    image: docelaisa, // Replace with actual product image
     details: {
       composition: "Docetaxel",
       packaging: "Single-dose vial",

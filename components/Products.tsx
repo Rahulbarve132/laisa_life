@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import React from 'react'
-import Product from "@/public/product.png"
+import pacliaisa from "@/public/pacliaisa.png"
 import { FaPlus } from "react-icons/fa6";
+import docelaisa from "@/public/docelaisa.png"
 
 const products = [
   {
@@ -9,7 +10,7 @@ const products = [
     name: "PACLILAISA Injection",
     category: "Oncology",
     description: "PACLILAISA (Paclitaxel) Injection is a mitotic inhibitor used in cancer chemotherapy.",
-    image: Product,
+    image: pacliaisa,
     details: {
       composition: {
         title: "Each ml contains:",
@@ -29,7 +30,7 @@ const products = [
     name: "DOCELAISA Injection",
     category: "Oncology",
     description: "DOCELAISA (Docetaxel) Injection is a chemotherapy medication used in cancer treatment.",
-    image: Product,
+    image: docelaisa,
     details: {
       composition: {
         title: "Each ml contains:",
