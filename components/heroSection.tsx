@@ -1,97 +1,79 @@
 'use client'
 import React from 'react'
-import homeSectionImage from '../public/homeSection.png'
 import Image from 'next/image'
 import Link from 'next/link'
 import instagram from '../public/instagram.png'
 import facebook from '../public/facebook.png'
 import linkedin from '../public/linkedIn.png'
 import whatsapp from '../public/whatsapp.png'
-
+import hero from '../public/hero.png'
 
 const HeroSection = () => {
   return (
-    <section className="bg-[#61B5E1] rounded-3xl min-h-[530px] mx-4 md:mx-8 overflow-hidden">
-      <div className="container mx-auto py-8 px-4 md:px-8 relative">
-        {/* Title */}
-        <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-[180px] text-center font-bold text-[#D12391] mb-4 md:mb-8">
-          LAISA Life
-        </h1>
+    <div className="relative h-screen overflow-hidden mx-4 md:mx-8 rounded-3xl">
+      {/* Background Image */}
+      <Image
+        src={hero}
+        alt="Laboratory Background"
+        fill
+        className="object-cover rounded-3xl"
+        priority
+      />
+      
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-blue-900/50 via-blue-900/30 to-blue-900/50 rounded-3xl">
+        {/* Content Container */}
+        <div className="relative h-full flex flex-col justify-center items-center">
+          {/* Main Text */}
+          <div className="text-center space-y-4 z-10">
+            <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold text-white tracking-wider">
+              LAISA<span className="text-[#D12391]">LIFE</span>
+            </h1>
+            <h2 className="text-xl sm:text-2xl md:text-3xl text-white font-medium tracking-widest">
+              SCIENCES PRIVATE LIMITED
+            </h2>
+          </div>
 
-        <div className="flex flex-col items-center relative">
-          {/* Features section - Mobile */}
-          <div className="flex flex-col gap-4 w-full md:hidden mt-4">
-            <div className="flex flex-col gap-3">
-              <div className="text-white px-4 py-2 rounded-full flex items-center">
-                <div className="w-8 h-8 bg-[#F04A8F] rounded-lg mr-2"></div>
-                <span className="text-sm">100% genuine products</span>
-              </div>
-              <div className="text-white px-4 py-2 rounded-full flex items-center">
-                <div className="w-8 h-8 bg-[#F04A8F] rounded-lg mr-2"></div>
-                <span className="text-sm">Delivery to your doorstep</span>
-              </div>
+          {/* Features Box - Bottom */}
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-8">
+            <div className="bg-[#D12391]/10 backdrop-blur-sm px-6 py-3 rounded-lg border border-[#D12391]/20">
+              <p className="text-white text-center text-sm">
+                100% genuine<br />medicine
+              </p>
+            </div>
+            <div className="bg-[#D12391]/10 backdrop-blur-sm px-6 py-3 rounded-lg border border-[#D12391]/20">
+              <p className="text-white text-center text-sm">
+                Deliver to your<br />doorstep
+              </p>
             </div>
           </div>
 
-          {/* Features section - Desktop */}
-          <div className="hidden md:flex w-full justify-between absolute bottom-[-14rem]">
-            <div className="flex gap-4">
-              <div className="text-white px-4 py-2 rounded-full flex items-center">
-                <div className="w-8 h-8 bg-[#F04A8F] rounded-lg mr-2"></div>
-                <span className="text-sm">100% genuine products</span>
-              </div>
-              <div className="text-white px-4 py-2 rounded-full flex items-center">
-                <div className="w-8 h-8 bg-[#F04A8F] rounded-lg mr-2"></div>
-                <span className="text-sm">Delivery to your doorstep</span>
-              </div>
+          {/* Social Links Box - Top Right */}
+          <div className="absolute bottom-8 right-8 bg-white/10 backdrop-blur-sm p-4 rounded-lg border border-white/20">
+            <div className="flex gap-4 items-center">
+              <Link href="#" className="hover:scale-110 transition-transform">
+                <Image src={instagram} alt="Instagram" width={32} height={32} className="w-8 h-8" />
+              </Link>
+              <Link href="https://www.facebook.com/Ecoavenstra/" target="_blank" className="hover:scale-110 transition-transform">
+                <Image src={facebook} alt="Facebook" width={32} height={32} className="w-8 h-8" />
+              </Link>
+              <Link href="https://www.linkedin.com/company/ecoavenstra-hr-infotech-pvt-ltd/" target="_blank" className="hover:scale-110 transition-transform">
+                <Image src={linkedin} alt="LinkedIn" width={32} height={32} className="w-8 h-8" />
+              </Link>
+              <Link href="https://wa.me/+919752505639" target="_blank" className="hover:scale-110 transition-transform">
+                <Image src={whatsapp} alt="WhatsApp" width={32} height={32} className="w-8 h-8" />
+              </Link>
             </div>
-            <div className="bg-white  z-50 p-4 rounded-lg w-56 flex flex-col justify-between h-32">
-              <div className="flex gap-2">
-                 <div className=' flex gap-4 justify-center items-center'>     
-                   <div className='size-8 object-contain hover:scale-110'>
-        <Image className='' src={instagram} alt="instagram " width={36} />
+            <button 
+              onClick={() => { console.log("Contact Us") }}
+              className="mt-4 w-full bg-white/10 hover:bg-white/20 text-white py-2 rounded-md font-medium transition-colors"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
       </div>
-      <Link href="https://www.facebook.com/Ecoavenstra/" target="_blank">
-        <div className='size-8 object-contain hover:scale-110'>
-          <Image className='' src={facebook} alt="facebook" />
-        </div>
-      </Link>
-      <Link href="https://www.linkedin.com/company/ecoavenstra-hr-infotech-pvt-ltd/" target="_blank">
-        <div className='size-8 object-contain hover:scale-110'>
-          <Image className='' src={linkedin} alt="linkedin" />
-        </div>
-      </Link>
-      <Link href="https://wa.me/+919752505639" target="_blank">
-        <div className='size- object-contain hover:scale-110'>
-          <Image className='' src={whatsapp} alt="whatsapp"  height={45} />
-        </div>
-      </Link>
     </div>
-              </div>
-              <button onClick={()=>{
-                console.log("Contact Us");
-              }} className="bg-gray-200 text-black w-full py-2 rounded-md  font-semibold">
-                Contact Us
-              </button>
-            </div>
-          </div>
-          
-          {/* Centered Image */}
-          <div className="relative w-full flex justify-center mt-4 md:mt-0 md:absolute right-10 md:right-0 top-[3rem] md:top-[-8rem]">
-            <Image
-              src={homeSectionImage}
-              data-aos="fade-down"
-              data-aos-duration="1000"
-              alt="Pharmacist"
-              width={420}
-              height={300}
-              className="w-[390px] sm:w-[350px] md:w-[420px] object-contain"
-              priority
-            />
-          </div>
-        </div>
-      </div>
-    </section>
   )
 }
 
