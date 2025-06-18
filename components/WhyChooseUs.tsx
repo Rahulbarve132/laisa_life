@@ -5,30 +5,27 @@ import whyChoose from "@/public/whyChoose.png"
 const chooseUsPoints = [
   {
     id: 1,
-    title: "Industry Expertise",
-    description: "Specialized in pharmacy and healthcare web design with compliance and security in mind."
+    title: "Certified Manufacturing Standards",
+    description: "Compliant with WHO-GMP, ISO, and regulatory norms to ensure product safety and efficacy."
   },
   {
     id: 2,
-    title: "Custom Solutions",
-    description: "Tailored features like online prescriptions, appointment booking, and medication info."
+    title: "Advanced Infrastructure",
+    description: "State-of-the-art facilities equipped with modern machinery and quality control labs."
   },
   {
     id: 3,
-    title: "Mobile & SEO Optimized",
-    description: "Fully responsive and search engine-friendly to boost visibility and reach."
+    title: "Scalable Production Capacity",
+    description: "Capable of handling bulk orders with consistent quality and timely delivery."
   },
   {
     id: 4,
-    title: "User-Friendly Design",
-    description: "Intuitive layouts for easy navigation by all age groups and patients."
+    title: "Experienced R&D Team",
+    description: "Innovative formulation development and support for customized medicine requirements."
   },
-  {
-    id: 5,
-    title: "Ongoing Support",
-    description: "Reliable technical support and maintenance to keep your website running smoothly"
-  }
+  
 ]
+
 
 const WhyChooseUs = () => {
   return (
