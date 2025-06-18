@@ -14,7 +14,8 @@ const products = [
     name: "PACLILAISA Injection",
     category: "Oncology",
     description: "PACLILAISA (Paclitaxel) Injection is a mitotic inhibitor used in cancer chemotherapy. It is particularly effective in the treatment of ovarian, breast, lung, bladder, prostate, melanoma, esophageal, and other types of solid tumor cancers. The drug targets tubulin, which is essential for cell division, effectively disrupting the process of cancer cell growth.",
-    image: pacliaisa,    details: {
+    image: pacliaisa,
+    details: {
       composition: {
         title: "Each ml contains:",
         components: [
