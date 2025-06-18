@@ -6,7 +6,7 @@ import Footer from "@/components/Footer"
 import { Providers } from "./providers"
 
 export const metadata: Metadata = {
-  title: "LAIBA Pharmacy",
+  title: "LAISALIFE ",
   description: "Your trusted community pharmacy for quality healthcare",
 }
 

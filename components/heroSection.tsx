@@ -46,10 +46,8 @@ const HeroSection = () => {
                 Deliver to your<br />doorstep
               </p>
             </div>
-          </div>
-
-          {/* Social Links Box - Top Right */}
-          <div className="absolute bottom-8 right-8 bg-white/10 backdrop-blur-sm p-4 rounded-lg border border-white/20">
+          </div>          {/* Social Links Box - Top Right (Hidden on Mobile) */}
+          <div className="absolute bottom-8 right-8 bg-white/10 backdrop-blur-sm p-4 rounded-lg border border-white/20 hidden md:block">
             <div className="flex gap-4 items-center">
               <Link href="#" className="hover:scale-110 transition-transform">
                 <Image src={instagram} alt="Instagram" width={32} height={32} className="w-8 h-8" />
