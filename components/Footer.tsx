@@ -17,7 +17,7 @@ const Footer = () => {
                   width={50}  />
               </div>
               <p className="text-gray-600 max-w-xs">
-                Your trusted pharmacy for quality healthcare products and services.
+                Your trusted pharmaceutical company for quality healthcare products and services.
               </p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-8">
@@ -106,14 +106,14 @@ const Footer = () => {
                         d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                       />
                     </svg>
-                    <span className="text-gray-600">info@laiba.com</span>
+                    <span className="text-gray-600">info@laisalife.com</span>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-500">
-            <p>© {new Date().getFullYear()} LAISA Pharmacy. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Copyright@laisalife sciences Pvt Ltd</p>
           </div>
         </div>
       </div>

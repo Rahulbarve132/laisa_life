@@ -7,7 +7,7 @@ import { Providers } from "./providers"
 
 export const metadata: Metadata = {
   title: "LAISALIFE ",
-  description: "Your trusted community pharmacy for quality healthcare",
+  description: "Your trusted pharmaceutical company for quality healthcare",
 }
 
 export default function RootLayout({
