@@ -2,7 +2,7 @@ import HeroSection from "@/components/heroSection"
 import ServicesSection from "@/components/servicesSection"
 import AboutUs from "@/components/aboutUs"
 import Products from "@/components/Products"
-import Promotions from "@/components/Promotions"
+
 import Testimonial from "@/components/Testimonial"
 import WhyChooseUs from "@/components/WhyChooseUs"
 
@@ -16,7 +16,7 @@ export default function Home() {
      <ServicesSection/>
      <AboutUs/>
      <Products/>
-     <Promotions />
+     
      <Testimonial/>
      <WhyChooseUs/>
     

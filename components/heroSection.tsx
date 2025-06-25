@@ -36,16 +36,8 @@ const HeroSection = () => {
 
           {/* Features Box - Bottom */}
           <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex gap-8">
-            <div className="bg-[#D12391]/10 backdrop-blur-sm px-6 py-3 rounded-lg border border-[#D12391]/20">
-              <p className="text-white text-center text-sm">
-                100% genuine<br />medicine
-              </p>
-            </div>
-            <div className="bg-[#D12391]/10 backdrop-blur-sm px-6 py-3 rounded-lg border border-[#D12391]/20">
-              <p className="text-white text-center text-sm">
-                Deliver to your<br />doorstep
-              </p>
-            </div>
+           
+            
           </div>          {/* Social Links Box - Top Right (Hidden on Mobile) */}
           <div className="absolute bottom-8 right-8 bg-white/10 backdrop-blur-sm p-4 rounded-lg border border-white/20 hidden md:block">
             <div className="flex gap-4 items-center">

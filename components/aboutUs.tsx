@@ -18,7 +18,7 @@ const AboutUs = () => {
             <div className="w-full md:w-1/3 flex justify-center">
               <img
                 src={aboutUsImg.src}
-                alt="Pharmacy Character"
+                alt=" Character"
                 width={230}
                 height={300}
                 className="rounded-lg"

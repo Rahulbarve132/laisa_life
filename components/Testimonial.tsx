@@ -5,7 +5,7 @@ const testimonialData = [
     id: 1,
     title: "Top-Notch Medicine Quality",
     subtitle: "Consistent Standards & GMP Certified",
-    review: "We’ve been sourcing from this factory for over 2 years. Their medicines are always of premium quality, and regulatory compliance is excellent.",
+    review: "We’ve been sourcing from this trusted pharmaceutical company for over 2 years. Their medicines are always of premium quality, and regulatory compliance is excellent.",
     rating: 5,
     author: "Dr. Rajeev Mehra, Delhi"
   },
@@ -21,7 +21,7 @@ const testimonialData = [
     id: 3,
     title: "Affordable & Effective Formulations",
     subtitle: "Great Value for Healthcare Units",
-    review: "We get top-quality generics at very competitive rates. Their product stability and efficacy are impressive. Highly recommended for rural health programs.",
+    review: "We get top-quality Ethical medicines s at very competitive rates. Their product stability and efficacy are impressive. Highly recommended for rural health programs.",
     rating: 5,
     author: "Anil Patil, Pune"
   },

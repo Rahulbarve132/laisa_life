@@ -143,10 +143,10 @@ const Navbar = () => {
                     <h3 className="font-medium text-gray-800 mb-2">Need Help?</h3>
                     <p className="text-sm text-gray-600">Contact our support team</p>
                     <a 
-                      href="tel:+1234567890" 
+                      href="tel:+917224093826" 
                       className="mt-2 inline-block text-[#D12391] font-medium"
                     >
-                      +123 456 7890
+                      7224093826
                     </a>
                   </div>
                 </div>
