@@ -46,10 +46,7 @@ const Promotions = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {promotionsData.map((promotion, index) => (
             <div key={index} className={`${promotion.background} rounded-lg p-6 relative h-[330px] overflow-hidden`}>
-              <div >
-                <div className="text-4xl  font-bold">{promotion.discount}</div>
-                <div className="text-sm">{promotion.type}</div>
-              </div>
+              
               <img
                 src={promotion.image.src}
                 alt={promotion.image.alt}

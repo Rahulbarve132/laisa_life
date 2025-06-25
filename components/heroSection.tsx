@@ -52,13 +52,13 @@ const HeroSection = () => {
               <Link href="#" className="hover:scale-110 transition-transform">
                 <Image src={instagram} alt="Instagram" width={32} height={32} className="w-8 h-8" />
               </Link>
-              <Link href="https://www.facebook.com/Ecoavenstra/" target="_blank" className="hover:scale-110 transition-transform">
+              <Link href="#" target="_blank" className="hover:scale-110 transition-transform">
                 <Image src={facebook} alt="Facebook" width={32} height={32} className="w-8 h-8" />
               </Link>
-              <Link href="https://www.linkedin.com/company/ecoavenstra-hr-infotech-pvt-ltd/" target="_blank" className="hover:scale-110 transition-transform">
+              <Link href="#" target="_blank" className="hover:scale-110 transition-transform">
                 <Image src={linkedin} alt="LinkedIn" width={32} height={32} className="w-8 h-8" />
               </Link>
-              <Link href="https://wa.me/+919752505639" target="_blank" className="hover:scale-110 transition-transform">
+              <Link href="https://wa.me/+917224093826" target="_blank" className="hover:scale-110 transition-transform">
                 <Image src={whatsapp} alt="WhatsApp" width={32} height={32} className="w-8 h-8" />
               </Link>
             </div>

@@ -31,7 +31,7 @@ export default function AboutUs() {
         />
         <h1 className="text-4xl font-bold text-[#D12391] mb-3">About us</h1>
         <p className="text-lg text-[#D12391] font-medium">
-          Delivering Trust, One Injection at a Time.
+          Delivering Trust, One Medicine  at a Time.
         </p>
       </div>
     </section>
@@ -55,7 +55,7 @@ export default function AboutUs() {
           <p className="text-sm sm:text-base lg:text-lg transform transition-all duration-700 hover:scale-[1.02] hover:bg-gray-50 p-4 sm:p-6 rounded-lg">
             As a growing company, we are agile, research-driven, and patient-focused. We believe that every
             treatment should be as unique as the person receiving it, and we are dedicated to bringing precision,
-            care, and hope to every injection we produce.
+            care, and hope to every Medicine  we produce.
           </p>
         </div>
         <div className="mt-6 space-y-4">
@@ -80,7 +80,7 @@ export default function AboutUs() {
             Our Vision
           </div>
           <p className="text-base text-gray-700">
-            Our vision is to lead in delivering safe, innovative, and accessible injection solutions that improve
+            Our vision is to lead in delivering safe, innovative, and accessible Medicine  solutions that improve
             health outcomes and enrich lives.
           </p>
         </div>
@@ -111,7 +111,7 @@ export default function AboutUs() {
         <div data-aos="fade-down" className="bg-[#F1F1F1] rounded-3xl shadow-md border border-gray-300">
           <div className="p-4">
             <h3 className="text-xl font-bold text-[#D12391] mb-1">Presence</h3>
-            <p className="text-base text-gray-800 mb-3">We specialize in high-quality injection treatments</p>
+            <p className="text-base text-gray-800 mb-3">We specialize in high-quality Medicine  treatments</p>
           </div>
           <img
             src={presence.src}
@@ -130,7 +130,7 @@ export default function AboutUs() {
           Our mission
         </h2>
         <p className="text-base text-gray-700 mb-6">
-          Our mission is to deliver safe, effective, and personalized injection treatments that enhance lives,
+          Our mission is to deliver safe, effective, and personalized Medicine  treatments that enhance lives,
           support well-being, and boost confidence.
         </p>
         <img
@@ -150,7 +150,7 @@ export default function AboutUs() {
         <div className="flex-1">
           <h1 className="text-5xl md:text-6xl font-bold text-[#D12391] mb-3">About us</h1>
           <p className="text-xl md:text-2xl text-[#D12391] font-medium">
-            Delivering Trust, One Injection at a Time.
+            Delivering Trust, One Medicine  at a Time.
           </p>
         </div>
         <div className="flex-1 flex justify-end">
@@ -187,7 +187,7 @@ export default function AboutUs() {
             <p className="text-sm sm:text-base lg:text-lg transform transition-all duration-700 hover:scale-[1.02] hover:bg-gray-50 p-4 sm:p-6 rounded-lg">
               As a growing company, we are agile, research-driven, and patient-focused. We believe that every
               treatment should be as unique as the person receiving it, and we are dedicated to bringing precision,
-              care, and hope to every injection we produce.
+              care, and hope to every Medicine  we produce.
             </p>
           </div>
 
@@ -216,7 +216,7 @@ export default function AboutUs() {
               Our Vision
             </div>
             <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
-              Our vision is to lead in delivering safe, innovative, and accessible injection solutions that improve
+              Our vision is to lead in delivering safe, innovative, and accessible Medicine  solutions that improve
               health outcomes and enrich lives.
             </p>
           </div>
@@ -255,7 +255,7 @@ export default function AboutUs() {
     <div  data-aos="fade-up" className="bg-[#F1F1F1]  rounded-3xl  shadow-md border border-gray-300 p-0 overflow-hidden flex flex-col">
       <div className="p-6 pb-2">
         <h3 className="text-2xl font-bold text-[#D12391] mb-1">Presence</h3>
-        <p className="text-lg text-gray-800 mb-4">We specialize in high-quality injection treatments</p>
+        <p className="text-lg text-gray-800 mb-4">We specialize in high-quality Medicine  treatments</p>
       </div>
       <div className="flex-1 flex items-end relative">
         <img
@@ -279,7 +279,7 @@ export default function AboutUs() {
               Our mission
             </h2>
             <p className="text-lg sm:text-xl text-gray-700 leading-relaxed">
-              Our mission is to deliver safe, effective, and personalized injection treatments that enhance lives,
+              Our mission is to deliver safe, effective, and personalized Medicine  treatments that enhance lives,
               support well-being, and boost confidence.
             </p>
           </div>

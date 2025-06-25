@@ -44,8 +44,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Call Us Directly</h3>
               <p className="text-gray-600 mb-4">Available 9:00 AM - 6:00 PM</p>
-              <Link href="tel:+911234567890" className="text-[#D12391] font-medium hover:text-[#D12391]/80">
-                +91 123 456 7890
+              <Link href="tel:+917224093826" className="text-[#D12391] font-medium hover:text-[#D12391]/80">
+                7224093826
               </Link>
             </div>
 
@@ -57,8 +57,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">WhatsApp Us</h3>
               <p className="text-gray-600 mb-4">Quick responses on WhatsApp</p>
-              <Link href="https://wa.me/911234567890" className="text-[#D12391] font-medium hover:text-[#D12391]/80">
-                +91 123 456 7890
+              <Link href="https://wa.me/7224093826" className="text-[#D12391] font-medium hover:text-[#D12391]/80">
+                7224093826
               </Link>
             </div>
 
@@ -70,8 +70,8 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Email Us</h3>
               <p className="text-gray-600 mb-4">We'll respond within 24 hours</p>
-              <Link href="mailto:contact@laisalife.com" className="text-[#D12391] font-medium hover:text-[#D12391]/80">
-                contact@laisalife.com
+              <Link href="mailto:info@laisalife.com," className="text-[#D12391] font-medium hover:text-[#D12391]/80">
+                info@laisalife.com
               </Link>
             </div>
           </div>
@@ -86,8 +86,8 @@ const Contact = () => {
                     <FaMapMarkerAlt className="text-[#D12391] text-xl mt-1" />
                     <div>
                       <p className="font-medium mb-2">Headquarters</p>
-                      <p className="text-gray-600">123 Laisa Street</p>
-                      <p className="text-gray-600">Raipur, Chhattisgarh</p>
+                      <p className="text-gray-600">115 Tirupati Palace Nipania</p>
+                      <p className="text-gray-600">Indore, Madhya Pradesh</p>
                       <p className="text-gray-600">India</p>
                     </div>
                   </div>
