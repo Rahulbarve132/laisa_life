@@ -62,7 +62,7 @@ export default function ProductDetail() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Product Image */}
-          <div className="bg-[#F2EFF1] rounded-3xl p-8" data-aos="fade-right">
+          <div className="bg-[#F2EFF1] rounded-3xl p-8">
             <Image
               src= {product.image}
               alt={product.name}
@@ -73,7 +73,7 @@ export default function ProductDetail() {
           </div>
 
           {/* Product Details */}
-          <div className="space-y-6" data-aos="fade-left">
+          <div className="space-y-6" >
             <div>
               <p className="text-sm text-[#D12391] mb-2">{product.category}</p>
               <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-2">{product.name}</h1>

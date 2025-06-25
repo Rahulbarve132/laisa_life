@@ -146,7 +146,8 @@ const Navbar = () => {
                       href="tel:+917224093826" 
                       className="mt-2 inline-block text-[#D12391] font-medium"
                     >
-                      7224093826
+                      
+                      +917224093826
                     </a>
                   </div>
                 </div>
