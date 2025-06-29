@@ -37,9 +37,12 @@ const products = [
     details: {      composition: {
         title: "Each ml contains:",
         components: [
-          { name: "Docetaxel Trihydrate I.P. eq. to Docetaxel", value: "40mg" },
-          { name: "Polysorbate 80 I.P.", value: "527mg" },
-          { name: "Ethanol I.P.", value: "qs" }
+          { name: "anhydrous Docetaxel", value: "120mg" },
+          { name: "Polysorbate 80 I.P.", value: "q.s. to 3.0ml" },
+          { name: " Alcohol (95%v/v) Ι.Ρ.", value: "13%w/v " },
+          { name: " (Absolute Alcohol Content 15.25% v/v)"},
+
+           { name: "Water for Injections I.P. ", value: "q.s. to 9.0ml" }
         ]
       },
       packaging: "Single-dose vial with tamper-evident seal",

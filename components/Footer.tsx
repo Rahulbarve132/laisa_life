@@ -114,7 +114,11 @@ const Footer = () => {
           </div>
           <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-500">
             <p>© {new Date().getFullYear()} Copyright@laisalife sciences Pvt Ltd</p>
+            <p className="text-sm text-gray-500 mt-4">
+              Designed and Developed by Ecoavenstra Hr Infotech Pvt. Ltd. <a href="" ></a>
+              </p>
           </div>
+          
         </div>
       </div>
     </div>

@@ -2,9 +2,9 @@ import HeroSection from "@/components/heroSection"
 import ServicesSection from "@/components/servicesSection"
 import AboutUs from "@/components/aboutUs"
 import Products from "@/components/Products"
-
 import Testimonial from "@/components/Testimonial"
 import WhyChooseUs from "@/components/WhyChooseUs"
+import ConsultDoctorSection from "@/components/ConsultDoctor"
 
 
 export default function Home() {
@@ -16,7 +16,7 @@ export default function Home() {
      <ServicesSection/>
      <AboutUs/>
      <Products/>
-     
+     <ConsultDoctorSection/>
      <Testimonial/>
      <WhyChooseUs/>
     

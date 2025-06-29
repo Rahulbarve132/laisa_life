@@ -38,16 +38,16 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden text-sm md:flex space-x-6 mx-14">
             <Link href="/" className="text-pink-500 hover:text-pink-700">
-              home
+              Home
             </Link>
             <Link href="/products" className="text-pink-500 hover:text-pink-700">
-              products
+              Products
             </Link>
             <Link href="/about" className="text-pink-500 hover:text-pink-700">
-              about us
+              About us
             </Link>
             <Link href="/contact" className="text-pink-500 hover:text-pink-700">
-              contact us
+              Contact us
             </Link>
           </div>
 
@@ -71,7 +71,7 @@ const Navbar = () => {
               <SheetContent side="right" className="w-[300px] sm:w-[400px] bg-gradient-to-b from-white to-pink-50 border-l border-pink-100">
                 <div className="flex flex-col h-full">
                   {/* Logo and Brand */}
-                   
+                   <Link href="/">
                   <div className="flex items-center gap-2 mb-8">
                     <img
                       src={logo.src}
@@ -80,6 +80,7 @@ const Navbar = () => {
                     />
                     
                   </div>
+                  </Link>
 
                   {/* Navigation Links */}
                   <nav className="flex flex-col gap-2">
