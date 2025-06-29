@@ -13,8 +13,11 @@ function ConsultDoctorSection() {
           <p className="text-lg font-semibold text-gray-800 mb-1">
             Dr. Akhilesh Sahu
           </p>
-          <p className="text-[#D12391] font-medium mb-4">
+          <p className="text-[#D12391] font-medium mb-1">
             Cancer Specialist
+          </p>
+           <p className="text-[#D12391] font-medium mb-4">
+           +91 70003 35263
           </p>
           <div className="flex gap-4 mt-2">
             <a

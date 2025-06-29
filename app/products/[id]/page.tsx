@@ -26,7 +26,7 @@ const products = [
       },
       packaging: "Single-dose vial with tamper-evident seal",
       strength: "260mg/43.4ml",
-      storageConditions: "Store between 20°C to 25°C, protect from light"
+      storageConditions: "Store at a temperature not exceeding 25°C. Protect from light."
     }
   },  {
     id: 2,
