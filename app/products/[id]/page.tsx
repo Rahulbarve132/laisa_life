@@ -43,8 +43,6 @@ const products = [
           { name: " (Absolute Alcohol Content 15.25% v/v)"},
           { name: " Water for Injections I.P.", value: ".q.s. to 9.0ml " },
           { name: " (For IV infusion after Dilution)"},
-
-           { name: "Water for Injections I.P. ", value: "q.s. to 9.0ml" }
         ]
       },
       packaging: "Single-dose vial with tamper-evident seal",

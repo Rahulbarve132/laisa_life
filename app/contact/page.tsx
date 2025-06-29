@@ -70,10 +70,17 @@ const Contact = () => {
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-2">Email Us</h3>
               <p className="text-gray-600 mb-4">We'll respond within 24 hours</p>
+              <div className='flex flex-col gap-1'>
               <Link href="mailto:info@laisalife.com," className="text-[#D12391] font-medium hover:text-[#D12391]/80">
                 info@laisalife.com
               </Link>
+              
+              <Link href="mailto:Laisalifesciences@gmail.com," className="text-[#D12391] font-medium hover:text-[#D12391]/80">
+                Laisalifesciences@gmail.com
+              </Link>
+              </div>
             </div>
+            
           </div>
 
           {/* Location Section */}
