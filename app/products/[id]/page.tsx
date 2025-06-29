@@ -41,6 +41,8 @@ const products = [
           { name: "Polysorbate 80 I.P.", value: "q.s. to 3.0ml" },
           { name: " Alcohol (95%v/v) Ι.Ρ.", value: "13%w/v " },
           { name: " (Absolute Alcohol Content 15.25% v/v)"},
+          { name: " Water for Injections I.P.", value: ".q.s. to 9.0ml " },
+          { name: " (For IV infusion after Dilution)"},
 
            { name: "Water for Injections I.P. ", value: "q.s. to 9.0ml" }
         ]
